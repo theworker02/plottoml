@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/plottoml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plot config/toml key checks for twelve-factor services.",
+  "bin": {
+    "plottoml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/plottoml.git"
+  },
+  "homepage": "https://theworker02.github.io/plottoml/",
+  "keywords": [
+    "plot",
+    "toml",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
